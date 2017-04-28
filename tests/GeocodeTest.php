@@ -86,6 +86,7 @@ class GeocodeTest extends \PHPUnit_Framework_TestCase
                 'getStreetAddress'      => 'Amphitheatre Parkway',
                 'getShortStreetAddress' => 'Amphitheatre Pkwy',
                 'getStreetNumber'       => '1600',
+                'getFormattedAddress'   => '1600 Amphitheatre Pkwy, Mountain View, CA 94043, USA',
             ],
         ];
 
@@ -102,6 +103,7 @@ class GeocodeTest extends \PHPUnit_Framework_TestCase
                 'getPostcode'     => 'K0J 1C0',
                 'getTown'         => '',
                 'getStreetNumber' => '9',
+                'getFormattedAddress' => '9 Little St, Beachburg, ON K0J 1C0, Canada'
             ],
         ];
 
